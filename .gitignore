@@ -40,3 +40,6 @@ Thumbs.db
 # Logs e outros
 *.log
 local_settings.py
+
+# Guia do git
+git_guia.txt
