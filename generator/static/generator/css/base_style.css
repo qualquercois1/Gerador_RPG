@@ -1,0 +1,46 @@
+/* generator/static/generator/css/style.css */
+
+:root {
+    --cor-escura1: #151D3B;
+    --cor-clara1: #FFF7E9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-clara1); /* Um cinza bem claro */
+    color: var(--cor-escura1);
+    font-family: sans-serif;
+    padding: 2rem;
+}
+
+header {
+    border-bottom: 1px solid var(--cor-escura1);
+}
+
+.navbar-menu {
+    width: 100%;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+.navbar-menu a {
+    margin-inline: 20px;
+    text-decoration: none;
+    color: var(--cor-escura1);
+    border-bottom: 2px solid var(--cor-escura1);
+    border-left: 2px solid var(--cor-escura1);
+    padding: 10px;
+    padding-inline: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-menu a:hover {
+    color: var(--cor-clara1);
+    background-color: var(--cor-escura1);
+}

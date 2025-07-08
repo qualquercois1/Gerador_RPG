@@ -1,0 +1,13 @@
+{% extends "generator/base.html" %}
+{% load static %}
+
+{% block extra_styles %}
+    <link rel="stylesheet" href="{% static 'generator/css/home_style.css' %}">
+{% endblock extra_styles %}
+
+{% block content %}
+
+  <h1>Gerador de Personagens de RPG</h1>
+  <p>Descreva sua ideia e a IA criará um personagem para você.</p>
+
+{% endblock %}

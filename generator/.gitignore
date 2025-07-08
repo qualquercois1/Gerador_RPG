@@ -1,0 +1,42 @@
+# Arquivos do Ambiente Virtual (venv)
+# Nunca envie sua pasta de ambiente virtual
+env/
+venv/
+*/venv/
+*/env/
+.venv
+
+# Arquivos de dependências do Python
+*.pyc
+__pycache__/
+.python-version
+pip-log.txt
+pip-freeze.txt
+
+# Banco de Dados
+# Nunca envie seu banco de dados, especialmente o sqlite3
+db.sqlite3
+*.sqlite3
+
+# Arquivos de Configuração Sensíveis
+# Arquivos de ambiente que guardam senhas e chaves secretas
+.env
+*.env
+
+# Arquivos de Mídia e Estáticos (do collectstatic)
+# O código fonte dos estáticos (nos apps) deve ser enviado,
+# mas as pastas de destino do collectstatic e de uploads não.
+media/
+staticfiles/
+static_root/
+
+# Arquivos de IDEs e do Sistema Operacional
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs e outros
+*.log
+local_settings.py
