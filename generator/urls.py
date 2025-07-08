@@ -9,4 +9,6 @@ urlpatterns = [
     # chame a função 'home_view' que está no arquivo views.py.
     # O 'name' é um apelido para a rota, muito útil!
     path('', views.home_view, name='home'),
+    path('gerador', views.gerador_view, name='gerador'),
+    path('suporte', views.suporte_view, name='suporte'),
 ]

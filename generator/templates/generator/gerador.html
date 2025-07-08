@@ -1,0 +1,24 @@
+{% extends "generator/base.html" %}
+{% load static %}
+
+{% block extra_styles %}
+    <link rel="stylesheet" href="{% static 'generator/css/gerador_style.css' %}">
+{% endblock extra_styles %}
+
+{% block content %}
+
+  <h1>Gerador</h1>
+
+  <div class="redirect">
+    <p>Aqui você poderá criar seus personagens do jeito que imaginar</p>
+    <button>Continuar</button>
+  </div>
+
+  <div class="form">
+    <form action="post">
+        {% csrf_token %} {{ form.as_p }}
+        <button type="submit">Gerar</button>
+    </form>
+  </div>
+
+{% endblock %}

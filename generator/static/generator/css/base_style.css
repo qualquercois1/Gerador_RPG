@@ -15,10 +15,15 @@ body {
     color: var(--cor-escura1);
     font-family: sans-serif;
     padding: 2rem;
+    padding-top: 0;
 }
 
 header {
     border-bottom: 1px solid var(--cor-escura1);
+    position: sticky;
+    top: 0;
+
+    background-color: var(--cor-clara1);
 }
 
 .navbar-menu {
